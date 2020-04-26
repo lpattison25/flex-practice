@@ -1,0 +1,403 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+/* top bar */
+
+#top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  padding-top: 8px;
+  border-bottom: 3px solid #7753b3;
+  align-items: center;
+}
+
+#top-bar .left-txt {
+  font-size: 12px;
+  color: #898e91;
+}
+
+#top-bar .left-txt i {
+  margin-right: 5px;
+}
+
+#top-bar .middle-icons {
+  position: relative;
+  left: 75px;
+}
+
+#top-bar .middle-icons .monitor {
+  height: 35px;
+  margin-right: 5px;
+}
+
+#top-bar .middle-icons .mobile {
+  height: 35px;
+}
+
+#top-bar .right-info .license {
+  font-size: 12px;
+  color: #898e91;
+}
+
+#top-bar .right-info .license .fa-chevron-down {
+  margin-right: 10px;
+  margin-left: 4px;
+}
+
+#top-bar .right-info .top-btn {
+  background: #7753b3;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 13.5px;
+  border-radius: 5px;
+}
+
+#top-bar .right-info .top-btn span {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+#top-bar .right-info .fa-times {
+  color: #898e91;
+  margin-left: 15px;
+}
+
+/* main nav */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar .logo {
+  font-size: 25px;
+  font-weight: 600;
+  color: #405fe9;
+}
+
+.navbar .nav-links li {
+  display: inline-block;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-weight: 600;
+  color: #54668f;
+  font-size: 15px;
+}
+
+.navbar .buy-btn {
+  text-decoration: none;
+  color: white;
+  background: #405fe9;
+  padding: 13px 15px;
+  border-radius: 5px;
+}
+
+/* header area */
+
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header-area .left-txt .header-title {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-bottom: 20px;
+}
+
+.header-area .left-txt p {
+  width: 80%;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #6c6f75;
+  margin-bottom: 70px;
+}
+
+.header-area .left-txt .first-btn {
+  text-decoration: none;
+  background: #405fe9;
+  color: white;
+  padding: 15px 24px;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.header-area .left-txt .first-btn .fas {
+  margin-left: 15px;
+}
+
+.header-area .left-txt .second-btn {
+  text-decoration: none;
+  background: #eceffd;
+  color: #405fe9;
+  padding: 15px 24px;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.header-area .right-img img {
+  height: 420px;
+}
+
+/* info row */
+
+.container {
+  border-bottom: 1px solid #e7e8e9;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 20px;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.info-row .row {
+  width: 30%;
+}
+
+.info-row .row h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.info-row .row p {
+  margin-top: 15px;
+  width: 90%;
+  color: #6c6f75;
+}
+
+.info-row img {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+/* brand area */
+
+.container-two {
+  border-bottom: 1px solid #e7e8e9;
+}
+
+.brand-area {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.brand-area .fab {
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #898e91;
+}
+
+.brand-area .fa-airbnb {
+  margin-left: 8px;
+}
+
+.brand-area .fa-facebook {
+  margin-left: 18px;
+}
+
+.brand-area .fa-basketball-ball {
+  margin-left: 9px;
+}
+
+.brand-area .fa-instagram {
+  margin-left: 26px;
+}
+
+.brand-area .fa-twitter-square {
+  margin-left: 10px;
+}
+
+.brand-area .fa-pinterest {
+  margin-left: 19px;
+}
+
+.brand-area .fas {
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #6c6f75;
+}
+
+.brand-area h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #6c6f75;
+}
+
+/* sign up area */
+
+.container-three {
+  background: #fdfdfe;
+}
+.signup-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.signup-area .signup-left {
+  margin-right: 100px;
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 90px;
+  -webkit-box-shadow: 2px 6px 16px -14px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 2px 6px 16px -14px rgba(0, 0, 0, 0.64);
+  box-shadow: 2px 6px 16px -14px rgba(0, 0, 0, 0.64);
+}
+
+.signup-area .signup-left img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.signup-area .signup-left input {
+  display: block;
+  width: 80%;
+  padding: 20px 0px;
+  padding-top: 50px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 20px;
+  font-size: 17px;
+  border-bottom: 1px solid #eaecec;
+}
+
+.signup-area .signup-left .name {
+  margin: auto;
+}
+
+.signup-area .signup-left .email {
+  margin: auto;
+}
+
+.signup-area .signup-left .password {
+  margin: auto;
+}
+
+.signup-area .signup-left .form-btn {
+  position: relative;
+  left: 30px;
+  top: 50px;
+  text-decoration: none;
+  background: #57b995;
+  padding: 13px 70px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.signup-area #right-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 180px;
+  margin-left: 60px;
+}
+
+.signup-area #right-txt h2 {
+  font-size: 38px;
+  width: 80%;
+}
+
+.signup-area #right-txt p {
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  line-height: 1.8;
+  color: #6b717e;
+}
+
+.signup-area #right-txt .action-list {
+  display: flex;
+}
+
+.signup-area #right-txt .action-list li {
+  margin-bottom: 20px;
+  color: #57b995;
+}
+
+.signup-area #right-txt .action-list i {
+  margin-right: 6px;
+  color: #57b995;
+}
+
+.signup-area #right-txt .action-list .row-1 {
+  margin-right: 110px;
+}
+
+.signup-area #right-txt .developers {
+  color: #57b995;
+}
+
+/* graph area */
+
+.graph-area {
+  display: flex;
+  justify-content: center;
+  padding: 50px 10px;
+}
+
+/* this css allows the image to be rotated and look 3d */
+
+.container-four {
+  background: #fdfdfe;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.graph-area .left-img {
+  transform-style: preserve-3d;
+  perspective: 1200px;
+  padding-bottom: 40px;
+}
+
+.graph-area .left-img img {
+  height: 500px;
+  border-radius: 10px;
+  transform: rotateY(-30deg) rotateX(5deg);
+  backface-visibility: hidden;
+  -webkit-box-shadow: 20px 11px 64px -8px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 20px 11px 64px -8px rgba(0, 0, 0, 0.21);
+  box-shadow: 20px 11px 64px -8px rgba(0, 0, 0, 0.21);
+}
+
+.graph-area .right-area {
+  padding-top: 80px;
+  margin-right: 25px;
+}
