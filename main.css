@@ -377,7 +377,7 @@ html {
 
 .container-four {
   background: #fdfdfe;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -398,6 +398,63 @@ html {
 }
 
 .graph-area .right-area {
-  padding-top: 80px;
+  padding-top: 40px;
+}
+
+.graph-area .right-area h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.graph-area .right-area span {
+  color: #405fe9;
+}
+
+.graph-area .right-area .built-well {
+  margin-bottom: 40px;
+  width: 90%;
+  color: #6b717e;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.section1 h4 {
+  font-size: 19px;
+  margin-bottom: 9px;
+}
+
+.section1 p {
+  color: #6b717e;
+}
+
+.section1 .fas {
+  font-size: 35px;
   margin-right: 25px;
+  color: #405fe9;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2 .fas {
+  font-size: 35px;
+  margin-right: 20px;
+  color: #405fe9;
+  margin-left: -2px;
+}
+
+.section2 h4 {
+  font-size: 19px;
+  margin-bottom: 9px;
+}
+
+.section2 p {
+  color: #6b717e;
 }
