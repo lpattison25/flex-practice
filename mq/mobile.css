@@ -1,0 +1,304 @@
+@media only screen and (max-width: 768px) {
+  /* top bar */
+
+  /* this below is a fix for the white space bullshit on the right */
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  #top-bar {
+    display: flex;
+
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #top-bar .middle-icons {
+    display: none;
+  }
+
+  #top-bar .right-info .license {
+    display: none;
+  }
+
+  /* navbar */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .nav-links {
+    display: none;
+  }
+
+  .navbar .logo {
+    margin-left: 20px;
+  }
+
+  .navbar .buy-btn {
+    text-decoration: none;
+    color: white;
+    background: #405fe9;
+    padding: 13px 30px;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  /* header */
+
+  .header-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-area h1 {
+    font-size: 20px;
+  }
+
+  .header-area .header-title {
+    text-align: center;
+    font-size: 37px !important;
+  }
+
+  .header-area .header-title span {
+    color: #405fe9;
+  }
+
+  .header-area .left-txt p {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .header-area .left-txt {
+    width: 100%;
+  }
+
+  .header-area .left-txt .first-btn {
+    text-decoration: none;
+    background: #405fe9;
+    color: white;
+    padding: 15px 24px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 40%;
+  }
+
+  .header-area .left-txt .second-btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 40%;
+    text-align: center;
+  }
+
+  .header-area .right-img img {
+    height: 290px;
+    margin-top: 20px;
+  }
+
+  /* info row */
+  .info-row {
+    flex-direction: column;
+    width: 100%;
+    flex-basis: 100%;
+    padding-bottom: 20px;
+    padding-top: 60px;
+  }
+
+  .info-row .row {
+    width: 100%;
+  }
+
+  .info-row .row img {
+    height: 40px;
+  }
+
+  .info-row .row h3 {
+    font-size: 22px;
+  }
+
+  .info-row .row p {
+    margin-bottom: 50px;
+  }
+
+  /* brand area */
+  .brand-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    align-items: center;
+    transition: 0.8s ease-in-out;
+    animation-duration: 4s;
+    animation-direction: normal;
+  }
+
+  .brand-area .airbnb {
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+
+  .brand-area .facebook {
+    margin-bottom: 20px;
+  }
+
+  .brand-area .dribble {
+    margin-bottom: 20px;
+  }
+
+  .brand-area .instagram {
+    margin-bottom: 20px;
+  }
+
+  /* sign up area */
+  .signup-area {
+    flex-direction: column-reverse;
+
+    margin: auto;
+  }
+
+  .signup-area #right-txt h2 {
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .signup-area #right-txt p {
+    width: 80%;
+    text-align: center;
+    color: #6b717e;
+  }
+
+  .signup-area .signup-left {
+    margin-right: 0;
+  }
+
+  .signup-area #right-txt {
+    margin-top: 15px;
+  }
+
+  .signup-area #right-txt .action-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+
+  .signup-area .signup-left {
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    padding-bottom: 90px;
+    -webkit-box-shadow: 2px 6px 16px -14px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 2px 6px 16px -14px rgba(0, 0, 0, 0.64);
+    box-shadow: 2px 6px 16px -14px rgba(0, 0, 0, 0.64);
+  }
+
+  /* graph area */
+
+  .graph-area {
+    flex-direction: column-reverse;
+    flex-shrink: none;
+  }
+
+  .graph-area .left-img img {
+    height: 250px;
+
+    margin: 0 auto;
+  }
+
+  .graph-area .right-area h2 {
+    text-align: center;
+  }
+
+  .graph-area .right-area .built-well {
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  /* customer section */
+
+  .customer-panel {
+    display: none;
+  }
+
+  .customers {
+    display: none;
+  }
+
+  /* business focus */
+
+  .business-focus {
+    flex-direction: column-reverse;
+  }
+
+  .business-focus .right-image {
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+
+  .business-focus .right-image img {
+    height: 200px;
+  }
+
+  .business-focus .left-text {
+    margin: 45px;
+  }
+
+  .business-focus .left-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .business-focus .left-text p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6b717e;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .business-focus .left-text .stats .satisfaction {
+    margin-right: 10px;
+    padding-right: 25px;
+    border-right: 1px solid #d3d7da;
+    font-size: 16px;
+  }
+
+  .business-focus .left-text .stats .support {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 25px;
+    border-right: 1px solid #d3d7da;
+    font-size: 16px;
+  }
+
+  .business-focus .left-text .stats .sales {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+}
