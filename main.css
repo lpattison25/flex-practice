@@ -609,3 +609,312 @@ html {
 .business-focus .right-image img {
   height: 300px;
 }
+
+/* pricing cards */
+
+.pricing-contain {
+  background: #eff2f6;
+}
+
+.simple-pricing {
+  display: flex;
+  flex-direction: column;
+  min-width: 1200px;
+  margin: auto;
+  position: relative;
+  top: 120px;
+}
+
+.simple-pricing .fair-price {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.simple-pricing .fair-price h2 {
+  font-size: 37px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.simple-pricing .fair-price p {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #54668f;
+}
+
+.simple-pricing .fair-price .subscription {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #7e8697;
+}
+
+.simple-pricing .fair-price .subscription .fas {
+  color: #405fe9;
+}
+
+.simple-pricing .fair-price .subscription .annual {
+  margin-right: 10px;
+}
+
+.simple-pricing .fair-price .subscription .monthly {
+  margin-left: 10px;
+}
+
+.simple-pricing .card-section {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.simple-pricing .card-section .card-one {
+  background-color: white;
+  padding: 70px 0px;
+  width: 42%;
+  z-index: 11;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  position: relative;
+  left: 40px;
+}
+
+.simple-pricing .card-section .card-one h4 {
+  margin: auto;
+  background-color: #eceffd;
+  width: 26%;
+  text-align: center;
+  font-size: 13px;
+  color: #405fe9;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 6px 2px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.simple-pricing .card-section .card-one h2 {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.simple-pricing .card-section .card-one .twenty-nine {
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.simple-pricing .card-section .card-one p {
+  text-align: center;
+  margin-top: 10px;
+  color: #627092;
+  margin-bottom: 50px;
+}
+
+.simple-pricing .card-section .card-one .standard-list {
+  position: relative;
+  left: 130px;
+  margin-bottom: 50px;
+}
+
+.simple-pricing .card-section .card-one .standard-list li {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.simple-pricing .card-section .card-one .standard-list .fas {
+  margin-right: 5px;
+  color: #57b995;
+}
+
+.simple-pricing .card-section .card-one .card-btn {
+  background-color: #405fe9;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+.simple-pricing .card-section .card-two {
+  background-color: rgb(250, 249, 249);
+  padding-top: 70px;
+  width: 43%;
+  z-index: 10;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  position: relative;
+  bottom: -30px;
+  right: 50px;
+  height: 360px;
+}
+
+.simple-pricing .card-section .card-two h4 {
+  margin: auto;
+  background-color: #eceffd;
+
+  width: 24%;
+  text-align: center;
+  font-size: 13px;
+  color: #405fe9;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 6px 2px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.simple-pricing .card-section .card-two p {
+  margin: auto;
+
+  color: #6d7894;
+  margin-bottom: 70px;
+  width: 82%;
+
+  line-height: 1.7;
+  font-size: 23px;
+  text-align: center;
+}
+
+.simple-pricing .card-section .card-two .card-btn2 {
+  background-color: #dae2ef;
+  color: #8190b0;
+  width: 100%;
+  padding: 20px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  -webkit-box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  box-shadow: 4px 3px 5px -4px rgba(0, 0, 0, 0.42);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* question area */
+
+.land-contain {
+  background: #1d2a4c;
+  overflow: hidden;
+}
+
+.panel-area {
+  padding-top: 210px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  max-width: 1050px;
+  margin: 0 auto;
+  width: 90%;
+  color: white;
+}
+
+.panel-area .panel-icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #57b995;
+}
+
+.panel-area h3 {
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+
+.panel-area p {
+  margin-bottom: 40px;
+  font-size: 15px;
+  color: #9ca9c7;
+  line-height: 1.7;
+}
+
+.panel-area .panels-one {
+}
+
+.panel-area .panels-two {
+  margin-left: 70px;
+}
+
+.panel-area .panel-one {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.panel-area .panel-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-area .panel-three {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-area .panel-four {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* save time */
+
+.save-time {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.save-time .get-started {
+  background: #253152;
+  width: 7%;
+  margin: auto;
+  text-decoration: none;
+  color: #606d8d;
+  padding: 6px 2px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.save-time h2 {
+  font-size: 37px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.save-time p {
+  width: 45%;
+  margin: auto;
+  line-height: 1.5;
+  color: #7382a3;
+  margin-bottom: 48px;
+}
+
+.save-time .buy-btn {
+  background: #57b995;
+  width: 8%;
+  margin: auto;
+  padding: 16px 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
